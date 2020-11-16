@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- For navbar and logo -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/images/logo_transparent.png" width="130px" height="130px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="/images/cart.png" alt="" width="30px" height="30px">
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <h1>New Products <br>Available Now!</h1>
+                    <p>Check the new products. Choose your favourite. Have some fun.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="/images/t-shirt.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- Main content of the page -->
+    <main>
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="/images/t-shirt-2.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <img src="/images/t-shirt-2.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <img src="/images/t-shirt-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="/images/t-shirt-2.jpg" alt="">
+                    <h4>Read Printed T-Shirt</h4>
+                    <p class="price">$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="/images/t-shirt-2.jpg" alt="">
+                    <h4>Read Printed T-Shirt</h4>
+                    <p class="price">$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="/images/t-shirt-2.jpg" alt="">
+                    <h4>Read Printed T-Shirt</h4>
+                    <p class="price">$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="/images/t-shirt-2.jpg" alt="">
+                    <h4>Read Printed T-Shirt</h4>
+                    <p class="price">$50.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer of the site -->
+    <footer>
+
+    </footer>
+</body>
+</html>
